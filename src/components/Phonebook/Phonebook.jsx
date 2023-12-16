@@ -1,4 +1,3 @@
-// Phonebook.jsx
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
@@ -73,7 +72,6 @@ const Phonebook = () => {
     setNumber('');
     dispatch(setFilter(''));
 
-    // Utilizează setContacts pentru a actualiza lista de contacte în store
     dispatch(setContacts([...contacts, newContact]));
   };
 
