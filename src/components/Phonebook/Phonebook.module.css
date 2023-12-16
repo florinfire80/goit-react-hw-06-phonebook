@@ -37,7 +37,8 @@ button {
 }
 button:hover {
   background-color: #126c12;
-  box-shadow: 0px 8px 43px 0px rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 8px 30px 0px rgba(255, 255, 255, 0.6);
+  color: #c2b6e6;
 }
 ul {
   list-style: none;
